@@ -1,4 +1,4 @@
-## Port Butler
+** Port Butler
 Tired of the the inconvenience that is having to remember some `lsof` or `ss` or `netstat` incantation
 for hunting down what service is using what port after I learn I can't access it, I prompted deeepseek
 for a solution. I read an HN piece that mentioned it was a shared frustration, noting there wasn't solutions
@@ -6,43 +6,43 @@ out there for the prob already. But now I know better. And complete solutions ar
 I will however keep this so I can build ontop of it how I see fit. For learning purposes. 
 
 
-### What Port Butler can do
+*** What Port Butler can do
 - Tell what service is listening on what port 
 - Tell what user owns the service that's using some port
 - Keep some form of context for later port assignment 
   - Say, you need a certain group of services (web dev) to use port range 7000 to 8000, that can be configured with this tool.
 
 
-### What it currently cannot do
+*** What it currently cannot do
 - Support windows outside `wsl`
 
-### Installation instructions
+*** Installation instructions
 - Clone this repo 
 - Run the script (it has no dependencies)
 
-### Next additions
+*** Next additions
 - A more detailed readme (this was written quick, deeepseek's sounded so robotic)
   - Adding screenshots for all possible usecases
 - Turning script into service
 
 
-### What won't happen if I am the only author except otherwise
+*** What won't happen if I am the only author except otherwise
 - Support for windows outside `wsl2`
 
-### Contributions
+*** Contributions
 - ... 
 
 
-### Authors
+*** Authors
 -  Zymacs    
 -  Deepseek
 
-### Prompt links
+*** Prompt links
 - [Initial code authoring](https://chat.deepseek.com/share/61ncx9n70tv9so5vkd) _excuse my lazy prompting english_
 - [Market analysis](https://chat.deepseek.com/share/1gcp47navofdokxvy4)
 
 
-### Other projects like this one 
+*** Other projects like this one 
 - https://github.com/Jason-Vaughan/PortHub
 - https://www.npmjs.com/package/portbd
 - https://socket.dev/npm/package/portkeeper
