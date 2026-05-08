@@ -36,7 +36,7 @@ I will however keep this so I can build ontop of it how I see fit. For learning 
 -  Deepseek
 
 *** Prompt links
-- [[Initial code authoring](https://chat.deepseek.com/share/61ncx9n70tv9so5vkd][Initial code authoring]] _excuse my lazy prompting english_
+- [[Initial code authoring](https://chat.deepseek.com/share/61ncx9n70tv9so5vkd][Initial code authoring]] _Excuse my lazy prompting English._
 - [[https://chat.deepseek.com/share/1gcp47navofdokxvy4][Market analysis]]
 
 
